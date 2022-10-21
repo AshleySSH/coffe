@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/hover-min.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+            <div class="container">
+                <div class="test">
+                    <div data-pushbar-id="mypushbar1" data-pushbar-direction="left">
+                        <div class="logo"> <h1 class="animate__animated animate__bounceInLeft"> HotCoffee </h1>
+                        </div> 
+                        <div class="search">
+                           
+                           <p class="animate__animated animate__bounceInLeft" > <img src="./img/Vector.svg" alt=""> Search... </p>
+                        </div>
+                        <nav>
+                           <ul class="animate__animated animate__bounceInRight" >
+                               <li> <a href=""> Home </a>  </li>
+                               <li> <a href=""> Articles </a></li>
+                               <li> <a href=""> <img src="./img/Vector (1).svg" alt=""> </a> </li>
+                               <li> <a href=""> <img src="./img/Vector (2).svg" alt=""> </a> </li>
+                               <li> <a href=""> <img src="./img/Vector (3).svg" alt="">  </a> </li>
+                           </ul>
+                        </nav>
+                        <button data-pushbar-close>Close</button>
+                    </div>
+                  </div>
+                
+                    <div class="pushbar_main_content">
+                       
+                  
+                        <button data-pushbar-target="mypushbar1">
+                        Navigation
+                        </button>
+                  
+                        
+                    </div>
+                </div>
+                    <div class="header-container">
+                        <div class="logo"> <h1 class="animate__animated animate__bounceInLeft"> HotCoffee </h1>
+                         </div> 
+                         <div class="search">
+                            
+                            <p class="animate__animated animate__bounceInLeft" > <img src="./img/Vector.svg" alt=""> Search... </p>
+                         </div>
+                         <nav>
+                            <ul class="animate__animated animate__bounceInRight" >
+                                <li> <a href=""> Home </a>  </li>
+                                <li> <a href=""> Articles </a></li>
+                                <li> <a href=""> <img src="./img/Vector (1).svg" alt=""> </a> </li>
+                                <li> <a href=""> <img src="./img/Vector (2).svg" alt=""> </a> </li>
+                                <li> <a href=""> <img src="./img/Vector (3).svg" alt="">  </a> </li>
+                            </ul>
+                         </nav>
+                    </div>
+                    <div class="header-info">
+                        <h2 class="animate__animated animate__fadeInDown" > Make better <span class="animate__animated animate__fadeInDown"> coffee  </span></h2>
+                        <div class="imgcoffe">
+                            <img  class="animate__animated animate__fadeInDown img " src="./img/image 6.svg" alt="">
+                        </div>
+                        <p class="animate__animated animate__fadeInDown" > why learn how to blog? </p>
+                    </div>
+            </div>  
+    </header>
+         <main>
+            <div class="container">
+                <div class="main-container">
+                        <div class="step1">
+                            <div class="page1_1">
+                                <h2> long established </h2>
+                                <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that.... </p>
+                                <p class="p2"> May 20th 2020 </p>
+                                <button  onclick="test()"   id="a">Read More</button>
+                            </div>
+                            <div class="imgpage1_1">
+                                <img class="animate__animated animate__rotateInDownRight img1_1" src="./img/image 1.png" alt="">
+                            </div>
+                        </div>
+                </div>
+            
+                <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="./img/image 2.png" alt="">
+                                <div class="text">
+                                    <h3> long established </h3>
+                                    <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that.... </p>
+                                    <p class="p3"> May 20th 2020 </p>
+                                    <button onclick="test()" id="a">Read More</button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                 <img src="./img/image 4.png" alt="">
+                                 <div class="text">
+                                    <h4> long established </h4>
+                                    <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that.... </p>
+                                    <p class="p3"> May 20th 2020 </p>
+                                    <button id="a">Read More</button>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                 <img src="./img/image 5.png" alt="">
+                                 <div class="text">
+                                    <h4> long established </h4>
+                                    <p> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that.... </p>
+                                    <p class="p3"> May 20th 2020 </p>
+                                    <button onclick="test()" id="a">Read More</button>
+                                </div>
+                            </div>
+                          
+                        </div>
+                         <div class="swiper-button-next"></div>
+                         <div class="swiper-button-prev"></div>
+                </div>
+                <div class="step3">
+                        <div class="page1_3">
+                            <h5> What is Lorem Ipsum? </h1>
+                            <p class="p1-1t"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution... </p> 
+                            <p class="p4"> May 20th 2020 </p>
+                            <button onclick="test()" id="a">Read More</button>
+                        </div>
+                        <div class="imgpage1_3">
+                            <img class="img1_3" src="./img/image 7.png" alt="">
+                        </div>                        
+                </div>
+                        <div class="button">
+                            <button class="hvr-sweep-to-left" onclick="sure()" id="a"> See more <img src="./img/Vector (7).png" alt=""></button>
+                        </div>
+            </div>
+         </main>
+         <footer>
+            <div class="container">
+                 <div class="step4">
+                    <p> <span class="h6"> hottcoffe </span> 2020 copyright all rights reserved </p>
+                 
+                 <nav class="navimg"> 
+                    <img src="./img/Vector (1).svg" alt="">
+                    <img src="./img/Vector (2).svg" alt="">
+                    <img src="./img/Vector (3).svg" alt="">
+                 </nav>
+                </div>
+            </div>
+         </footer>
+         <script src="https://unpkg.com/@popperjs/core@2"></script>
+         <script src="https://unpkg.com/tippy.js@6"></script>
+         <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+         <script src="https://cdn.jsdelivr.net/npm/pushbar.js@1.0.0/src/pushbar.min.js"> </script>
+<script src="./main.js"></script>
+</body>
+</html>
